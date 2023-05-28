@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Baloo+Bhaina+2&family=Bree+Serif&family=Charis+SIL:ital@1&family=Lato:wght@300&family=Qwitcher+Grypen:wght@700&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,300;1,300&family=Titillium+Web:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Baloo+Bhaina+2&family=Bree+Serif&family=Charis+SIL:ital@1&family=Comfortaa:wght@500&family=Lato:wght@300&family=Qwitcher+Grypen:wght@700&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,300;1,300&family=Titillium+Web:wght@300&family=Ubuntu&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 94vh;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background: url(2.jpg);
+}
+
+.final {
+    width: 100vw;
+    height: 40px;
+    background-color: rgba(24, 136, 180, 0.92);
+   
+
+}
+
+.copy{
+    text-align: center;
+    justify-content: center;
+    width: 95vw;
+    height: 25px;
+    padding-top: 8px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: black;
+}
+
+.navbar {
+    width: auto;
+    height: 55px;
+    background-color:rgba(24, 136, 180, 0.92)
+}
+
+.icon {
+    float: left;
+    width: 216px;
+    height: 55px;
+    padding-left: 25px;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    font-weight: lighter;
+    color: rgb(221 163 182 / 92%);
+    padding-top: 2px;
+}
+
+.menu {
+    width: 670px;
+    float: left;
+    height: 50px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 45px;
+    margin-top: 18px;
+    font-size: 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    font-weight: bolder;
+    background-color: #e0b31f;
+    color: #e9f2e9;
+    font-size: large;
+}
+
+body {
+    
+}
